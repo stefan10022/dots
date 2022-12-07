@@ -1,0 +1,60 @@
+@import "mocha.css";
+
+* {
+  font-family: "MesloLGS NF";
+  font-size: 18px;
+  font-weight: 600;
+}
+
+window#waybar {	
+    background-color: @base;
+    border-radius: 10px;
+}
+
+#network {
+    color: @pink;
+}
+
+#workspaces {
+   margin-left: 10px;
+   color: @text;
+}
+
+#window {
+   color: @text;
+}
+
+#clock {
+  margin-right: 10px;
+  color: @text;
+}
+
+#pulseaudio {
+    color: @teal;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#battery {
+   color: @blue;	
+}
+
+#backlight {
+   color: @yellow;
+}
+
+#temperature {
+   color: @sky;
+}
+
+#temperature.critical {
+   color: @red;
+}
+
+#memory, #cpu {
+  color: @peach;
+}
+
+#tray {
+  color: @text;
+}
